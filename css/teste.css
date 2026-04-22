@@ -34,7 +34,7 @@
 }
 
 .melissa {
-    background-color: rgb(170, 152, 64);
+    background-color: rgb(215, 192, 73);
 }
 
 
@@ -53,7 +53,7 @@ img {
     border-radius: 20px;
     text-align: center;
     margin-bottom: 30px;
-    transition: transform 0.35s;
+    transition: 0.35s;
 }
 
 
@@ -80,7 +80,7 @@ width: 25;
 
 .musica_melissa:hover {
      background-attachment: fixed;
-    background-color: #8d9656;
+    background-color: #887c30;
 }
 
 
@@ -123,7 +123,7 @@ a {
     text-decoration: solid;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 17px;
     text-align: center;
     
 }
