@@ -3,7 +3,7 @@
 
 
 .ryan {
-    background-color: #73a4bb; 
+    background-color: #5f8393; 
 }
 
 .bleda {
@@ -15,13 +15,13 @@
 }
 
 .musica_helena, .musica_ryan, .musica_bleda, .musica_melissa {
-    width: 270px;
-    height: 500px;
-    padding: 15px;
+    width: 230px;
+    height: 470px;
+    padding: 5px;
     border: solid black;
     border-radius: 20px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     transition: 0.35s;
 }
 
