@@ -1,6 +1,5 @@
 .musica_helena, .musica_ryan, .musica_bleda, .musica_melissa {
-    width: 270px;
-    height: 500px;
+   width: 270px;
     padding: 15px;
     border: solid black;
     border-radius: 20px;
@@ -12,8 +11,8 @@
 
 
 .musica_helena:hover, .musica_ryan:hover, .musica_bleda:hover, .musica_melissa:hover{
-transform: scale(1.10);
-width: 25;
+transform: scale(1.05);
+
 }
 
 .musica_helena:hover {

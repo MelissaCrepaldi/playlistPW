@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(208, 213, 217);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.painel {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    border: solid black 2px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 380px;
+    width: 100%;
+}
+
+.painel h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.lista-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.botao {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.botao:hover {
+    background-color: #dcdcdc;
+    transform: scale(1.02);
+}
+
+.botao-destaque {
+    background-color: #4c6e7d;
+    color: white;
+    border-color: #2c424d;
+}
+
+.botao-destaque:hover {
+    background-color: #3b5561;
+}
+
+.divisor {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 8px 0;
+}
